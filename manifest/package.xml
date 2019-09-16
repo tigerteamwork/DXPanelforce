@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <!-- Data Factories -->
+        <members>PanelForceDataCreator</members>
+        <members>PanelForceTestDataCreator</members>
+
+        <!-- Conduct Panel -->
+        <members>AssessmentLineItemController</members>
+        <members>AssessmentLineItemControllerTest</members>
+        <members>CreateAliController</members>
+        <members>CreateAliControllerTest</members>
+        <members>ConductPanelApexController</members>
+        <members>ConductPanelApexControllerTest</members>
+        <members>TestConductPanelApexController</members>
+        <members>createTimestampController</members>
+        <members>createTimestampControllerTest</members>
+
+        <!-- Panel History -->
+        <members>AssessmentController</members>
+        <members>AssessmentControllerTest</members>
+        <members>AssessmentHistoryController</members>
+        <members>AssessmentHistoryControllerTest</members>
+
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTestSuite</name>
+    </types>
+    <types>
+        <!-- Conduct Panel -->
+        <members>ConductPanelWrapper</members>
+        <members>ConductPanel</members>
+        <members>PanelCategoryTest</members>
+        <members>TimeStampButton</members>
+        <members>ConductPanelApp</members>
+
+        <members>PanelCategoryList</members>
+        <members>PanelCategoryListItem</members>
+        <members>PanelCategoryListItemInput</members>
+
+        <!-- Panel History -->
+        <members>AssessmentHistory</members>
+        <members>PanelHistory</members>
+        <members>PanelHistoryBox</members>
+        <members>PanelHistoryLink</members>
+        <members>PanelHistoryButtonComponent</members>
+        <members>TopicsToRePanel</members>
+        <members>PanelHistoryApp</members>
+
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>PanelForce_UtilityBar</members>
+        <members>PH_Assessment_Record_Page</members>
+        <members>PanelForce_UtilityBar1</members>
+        <members>Contact_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    
+    <types>
+        <members>AssessmentLineItem__c-Assessment Line Item Layout</members>
+        <members>Contact-Contact Layout</members>
+        <members>PanelCategory__c-Panel Category Layout</members>
+        <members>PH_Assessment__c-PH_Assessment Layout</members>
+        <members>PH_Training__c-PH_Training Layout</members>
+        <members>PH_TrainingAssignment__c-PH_TrainingAssignment Layout</members>
+        <members>PH_TrainingTrack__c-PH_TrainingTrack Layout</members>
+        <members>Time_Stamp__c-Time Stamp Layout</members>
+
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>PanelForce</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Workflow</name>
+    </types>
+    <version>46.0</version>
+</Package>
